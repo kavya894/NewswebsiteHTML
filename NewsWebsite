@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <style>
+        /* You can add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        article {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+            display: none; /* Hide all articles initially */
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>News Website</h1>
+    </header>
+    <nav>
+        <a href="#" onclick="showCategory('home')">Home</a> |
+        <a href="#" onclick="showCategory('world')">World</a> |
+        <a href="#" onclick="showCategory('politics')">Politics</a> |
+        <a href="#" onclick="showCategory('technology')">Technology</a> |
+        <a href="#" onclick="showCategory('entertainment')">Entertainment</a>
+    </nav>
+    <section>
+        <article class="home">
+            <h2>Breaking News: Earthquake Hits City</h2>
+            <img src="https://imgk.timesnownews.com/media/Turkey_earthquake_Izmir_AP.jpg" alt="Earthquake" width="300">
+            <p>An earthquake with a magnitude of 6.5 on the Richter scale struck the city earlier today, causing widespread panic and damage. The epicenter of the quake was reported to be located 20 miles south of the city center.</p>
+            <p>Reports are coming in of collapsed buildings, disrupted infrastructure, and injuries. Emergency services are currently responding to calls for assistance, and authorities are urging residents to stay calm and follow safety protocols.</p>
+            <p>The earthquake has also triggered aftershocks, further adding to the chaos and uncertainty in the affected area. Residents are advised to remain vigilant and be prepared for additional seismic activity.</p>
+        </article>
+        
+        <article class="world" style="display:none;">
+            <h2>Global Leaders Gather for Climate Summit</h2>
+            <img src="https://api.brusselstimes.com/wp-content/uploads/2021/11/4562.png" alt="Global Climate Summit" width="300">
+            <p>Leaders from around the world convened in New York for the annual Climate Summit, aiming to address pressing environmental issues and commit to sustainable solutions.</p>
+            <p>Amidst growing concerns over climate change, rising sea levels, and extreme weather events, the summit provides a crucial platform for world leaders to discuss and implement sustainable solutions. Key topics on the agenda include reducing carbon emissions, transitioning to renewable energy sources, and preserving biodiversity.</p>
+            <p>Throughout the summit, delegates will engage in high-level discussions, negotiations, and collaborative efforts to forge agreements and commitments that will shape global environmental policies for years to come. From setting ambitious emission reduction targets to mobilizing financial resources for climate adaptation and mitigation, the stakes are high as nations work towards a more sustainable and resilient future.</p>
+            <p>The summit also serves as a rallying cry for grassroots movements and civil society organizations, who are demanding urgent action from governments and corporations to address the climate crisis. With public pressure mounting and scientific evidence highlighting the severity of the situation, there is a sense of urgency and determination among participants to deliver meaningful outcomes from this pivotal gathering.</p>
+        </article>
+        
+        <article class="world" style="display:none;">
+            <h2>New Space Exploration Initiative Aims to Colonize Mars</h2>
+            <img src="https://amazingarchitecture.com/storage/files/1/architecture-firms/anastasia-volyk/the-colony/02-the-colony-anastasia-volyk-vladyslav-lysenko.jpg" alt="Space Exploration" width="300">
+            <p>In a bold and ambitious endeavor, leading space agencies and private aerospace companies have joined forces to launch a groundbreaking mission to establish a human colony on Mars. The initiative, dubbed "Red Horizon," represents a significant leap forward in humanity's quest to explore and colonize other planets.</p>
+            <p>Driven by advancements in space technology and a growing interest in interplanetary exploration, the Red Horizon mission aims to overcome the numerous challenges associated with long-duration space travel and planetary settlement. Key objectives include developing sustainable habitats, creating life support systems, and ensuring the safety and well-being of future Martian inhabitants.</p>
+            <p>The decision to colonize Mars stems from a combination of scientific curiosity, technological innovation, and the desire to secure humanity's future as a multi-planetary species. By establishing a permanent presence on the Red Planet, scientists hope to unlock new scientific discoveries, expand our understanding of the universe, and mitigate the risks associated with potential planetary disasters on Earth.</p>
+            <p>While the journey to Mars presents formidable obstacles, including radiation exposure, extreme temperatures, and psychological challenges, proponents of the mission remain undeterred. With unparalleled international collaboration and the spirit of exploration driving them forward, astronauts and engineers are working tirelessly to make the dream of Martian colonization a reality.</p>
+            <p>As preparations for the Red Horizon mission continue, excitement and anticipation are building among space enthusiasts and the general public alike. The prospect of humans setting foot on another planet represents a monumental achievement in the history of space exploration and a testament to humanity's enduring curiosity and ingenuity.</p>
+        </article>
+        
+              
+        
+        <article class="politics" style="display:none;">
+            <h2>Election Reform Bill Passes Senate</h2>
+            <img src="https://th.bing.com/th/id/OIP.WLXuVbvqV5PtjtJxcUmpfgHaEL?w=270&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Politics Article 1" width="300">
+                <p>After months of intense debate and negotiation, the Election Reform Bill, a cornerstone of legislative action aimed at modernizing and fortifying democratic processes, has achieved a historic victory by clearing the hurdles of the Senate. This landmark achievement signifies a pivotal moment in the nation's pursuit of electoral integrity and inclusivity, as the bipartisan initiative tackles systemic challenges and advances comprehensive solutions.</p>
+                <p>The bill, meticulously crafted through bipartisan collaboration, tackles multifaceted issues critical to the functioning of democracy. Among its provisions, campaign finance reform aims to curtail the influence of special interests, promote transparency, and level the playing field for candidates from diverse backgrounds. Concurrently, measures to safeguard voting rights seek to counteract voter suppression tactics, expand access to polling stations, and ensure equitable representation for all citizens.</p>
+                <p>Moreover, the bill bolsters election security measures, leveraging state-of-the-art technology and rigorous protocols to fortify the resilience of electoral infrastructure against external threats and internal vulnerabilities. By enhancing cybersecurity protocols and bolstering the integrity of electronic voting systems, the legislation fortifies the sanctity of the electoral process, fostering public confidence and safeguarding democratic institutions.</p>
+                <p>This legislative triumph not only signifies a triumph of bipartisanship and democratic values but also heralds a new era of electoral reform and civic engagement. As the nation embarks on the path towards a more resilient and inclusive democracy, the passage of the Election Reform Bill stands as a testament to the enduring commitment to upholding the principles of fairness, transparency, and accountability in governance.</p>
+            </article>
+        
+        <article class="politics" style="display:none;">
+            <h2>Global Cybersecurity Threats: Strategies for National Defense</h2>
+            <img src="https://th.bing.com/th/id/OIP.lqibbDtdrBiFw2fpyvrU7QHaEK?rs=1&pid=ImgDetMain" alt="Politics Article 2" width="300">
+                <p>As the frequency and sophistication of cyber threats continue to rise, governments worldwide are intensifying their efforts to strengthen cybersecurity defenses and protect critical infrastructure from malicious actors. Recognizing the evolving nature of cyber warfare, nations are adopting a multifaceted approach to mitigate risks and bolster resilience in the face of digital threats.</p>
+                <p>One key aspect of this strategy involves enhancing information sharing and collaboration between intelligence agencies, law enforcement bodies, and private sector entities. By fostering greater cooperation and exchange of threat intelligence, governments can effectively anticipate and respond to cyber attacks, preventing potential breaches and minimizing damage to vital systems and networks.</p>
+                <p>In addition to information sharing, investments in cutting-edge technologies play a crucial role in enhancing cybersecurity capabilities. From advanced encryption algorithms and intrusion detection systems to artificial intelligence-driven threat analytics, governments are deploying state-of-the-art tools to identify, mitigate, and neutralize cyber threats in real-time, ensuring the integrity and confidentiality of sensitive data.</p>
+                <p>As the cyber threat landscape continues to evolve, the implementation of comprehensive cybersecurity strategies remains paramount to national defense and security. By embracing collaboration, innovation, and preparedness, governments can effectively confront the challenges posed by cyber adversaries and uphold the integrity and sovereignty of their digital networks.</p>
+            </article>
+
+        
+            <article class="technology" style="display:none;">
+                <h2>The Rise of Artificial Intelligence in Healthcare</h2>
+                <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/1966025/settings_images/0FvCqWviRq6BnBQ9etoV_Industries_Healthcare_SKETCH.png" alt="Artificial Intelligence in Healthcare" width="300">
+                <p>Advancements in artificial intelligence (AI) are revolutionizing the healthcare industry, with applications ranging from disease diagnosis and treatment optimization to personalized medicine and patient care. Machine learning algorithms, a subset of AI, are trained on large datasets of medical records, imaging scans, and genetic information to identify patterns and make predictions with a level of accuracy that rivals or surpasses human experts.</p>
+    <p>One of the most promising areas of AI in healthcare is medical imaging analysis. AI algorithms can analyze medical images such as X-rays, MRIs, and CT scans to detect abnormalities and assist radiologists in diagnosing conditions like cancer, fractures, and neurological disorders. This not only speeds up the diagnostic process but also improves accuracy and reduces the risk of human error.</p>
+    <p>Additionally, AI-powered predictive analytics are transforming healthcare by forecasting patient outcomes, identifying individuals at high risk of developing certain diseases, and recommending personalized treatment plans. By analyzing patient data in real-time, AI algorithms can alert healthcare providers to potential health issues before they escalate, enabling proactive interventions and preventive care.</p>
+    <p>Furthermore, AI is driving innovation in drug discovery and development, accelerating the identification of new therapeutic compounds and streamlining clinical trials. AI algorithms can analyze vast datasets of molecular structures, genetic information, and clinical trial data to identify promising drug candidates and optimize treatment protocols, leading to faster and more effective treatments for patients.</p>
+            </article>
+            
+            <article class="technology" style="display:none;">
+                <h2>5G Technology: Transforming Connectivity and Communication</h2>
+                <img src="https://th.bing.com/th/id/R.fb54c9b0edacba336e747cedea7d4268?rik=Fzx%2b9k7bWoIIzg&riu=http%3a%2f%2fwww.sumitomocorp.com%2fafrica%2f-%2fmedia%2fImages%2fhq%2fbusiness%2fcase%2fcc-191129%2fhero.jpg&ehk=T9pLy%2b8aGqVuO2aiYxozxn2pYe4bMub8MDgwQ%2fWXRlE%3d&risl=&pid=ImgRaw&r=0" alt="5G Technology" width="300">
+                <p>The rollout of 5G technology is poised to revolutionize connectivity and communication on a global scale, offering unprecedented speed, reliability, and bandwidth for mobile networks and internet-enabled devices. Unlike its predecessors, 5G networks operate on higher frequencies, enabling faster data transmission and lower latency, which translates to near-instantaneous response times for applications and services.</p>
+    <p>One of the most significant advantages of 5G technology is its potential to unlock transformative applications across various industries. In the realm of autonomous vehicles, 5G networks facilitate real-time data exchange between vehicles and infrastructure, enabling safer and more efficient transportation systems. Similarly, in the healthcare sector, 5G-powered telemedicine and remote monitoring solutions enable healthcare providers to deliver high-quality care to patients in remote or underserved areas.</p>
+    <p>Furthermore, 5G technology is driving innovation in augmented reality (AR) and virtual reality (VR) applications, offering immersive experiences that blur the line between physical and digital worlds. From interactive gaming and immersive entertainment to remote collaboration and training simulations, 5G-powered AR and VR experiences are reshaping how we interact with technology and consume content.</p>
+    <p>Moreover, the deployment of 5G networks is paving the way for the development of smart cities, where interconnected devices and sensors enable real-time monitoring and optimization of urban infrastructure and services. From smart energy grids and intelligent transportation systems to environmental monitoring and public safety initiatives, 5G technology is empowering cities to become more efficient, sustainable, and resilient.</p>
+    <p>As the global rollout of 5G technology continues, it holds the promise of transforming industries, powering innovation, and improving quality of life for people around the world. However, challenges such as infrastructure deployment, spectrum allocation, and cybersecurity must be addressed to ensure the successful adoption and integration of 5G networks into our increasingly connected world.</p>
+            </article>
+            
+            <article class="entertainment" style="display:none;">
+                <h2>The Evolution of Streaming Platforms: Navigating the Content Landscape</h2>
+                <img src="https://www.orangelogic.com/hubfs/entertainment-media-asset-management-header-flip.jpg" alt="Streaming Platforms" width="300">
+                <p>The entertainment landscape is undergoing a seismic shift with the rapid proliferation of streaming platforms, reshaping how audiences consume content and interact with media. Streaming services have democratized access to a diverse array of content, from blockbuster movies and award-winning TV shows to original series and user-generated videos, offering viewers unparalleled choice and flexibility in their entertainment options.</p>
+                <p>Amidst the influx of streaming platforms, competition in the industry has reached unprecedented levels, driving content creators and distributors to innovate and differentiate their offerings to capture audience attention. Original programming has emerged as a key battleground, with streaming giants investing billions of dollars in producing exclusive content, including original series, films, documentaries, and live events, to attract subscribers and retain their loyalty.</p>
+                <p>Furthermore, streaming platforms are forging strategic partnerships and collaborations with content creators, production studios, and talent agencies to secure exclusive rights to popular franchises, intellectual properties, and talent, further diversifying their content libraries and enhancing their competitive edge. Additionally, personalized recommendation algorithms and data-driven insights enable streaming services to tailor content recommendations to individual viewer preferences, enhancing the user experience and fostering engagement.</p>
+                <p>Beyond curated content libraries, streaming platforms are venturing into interactive experiences and immersive storytelling formats to engage audiences in new and innovative ways. From interactive narratives and choose-your-own-adventure stories to virtual reality (VR) experiences and live interactive events, streaming services are pushing the boundaries of traditional media to deliver personalized and immersive entertainment experiences that captivate and delight audiences.</p>
+                <p>As the streaming revolution continues to unfold, content creators, distributors, and audiences alike are navigating an ever-evolving landscape characterized by innovation, competition, and consumer choice. While challenges such as content discovery, subscription fatigue, and content quality persist, the evolution of streaming platforms promises to redefine the future of entertainment, empowering creators to reach global audiences and audiences to access diverse and compelling content anytime, anywhere.</p>
+        </article>
+            
+            <article class="entertainment" style="display:none;">
+                <h2>Redefining Storytelling in Virtual Reality: Immersive Experiences and Narrative Design</h2>
+                <img src="https://th.bing.com/th/id/OIP.TMDHEv4bm8f8m-BZ4OcbbwHaE8?rs=1&pid=ImgDetMain" alt="Virtual Reality Storytelling" width="300">
+                <p>Virtual reality (VR) is reshaping the landscape of storytelling, offering immersive and interactive experiences that transport audiences beyond the confines of traditional media. With VR technology, creators have the power to craft narratives that transcend the limitations of two-dimensional storytelling, enabling viewers to explore and interact with virtual worlds in ways previously unimaginable.</p>
+                <p>Immersive storytelling experiences in VR take audiences on captivating journeys through richly detailed environments, from ancient civilizations and distant galaxies to fantastical realms and dystopian futures. Through a combination of stunning visuals, spatial audio, and interactive elements, creators can immerse viewers in the heart of the story, fostering a sense of presence and agency that deepens emotional engagement and immersion.</p>
+                <p>Beyond immersive experiences, VR technology enables creators to experiment with interactive narratives that empower viewers to shape the course of the story through their choices and actions. From branching storylines and multiple endings to real-time decision-making and player agency, interactive narratives in VR blur the lines between storytelling and gameplay, inviting audiences to become active participants in the unfolding narrative.</p>
+                <p>Moreover, VR gaming represents a burgeoning frontier in virtual storytelling, offering players the opportunity to step into the shoes of characters and embark on epic adventures in fully immersive virtual worlds. From action-packed shooters and puzzle-solving adventures to immersive simulations and social experiences, VR gaming pushes the boundaries of interactive storytelling, delivering unprecedented levels of immersion and engagement.</p>
+                <p>As creators continue to explore the possibilities of VR storytelling, the medium holds the potential to revolutionize how stories are told and experienced, offering audiences transformative experiences that transcend the limitations of traditional media. With its ability to transport viewers to new worlds and perspectives, VR storytelling represents a bold new frontier in the evolution of narrative artistry and audience engagement.</p>           
+            </article>
+        
+        <!-- Add more articles for other categories as needed -->
+    </section>
+    <footer>
+        <p>&copy; 2024 News Website. All rights reserved.</p>
+    </footer>
+    <script>
+        function showCategory(category) {
+            // Hide all articles
+            var articles = document.querySelectorAll('article');
+            articles.forEach(function(article) {
+                article.style.display = 'none';
+            });
+            
+            // Show articles of the selected category
+            var selectedArticles = document.querySelectorAll('.' + category);
+            selectedArticles.forEach(function(article) {
+                article.style.display = 'block';
+            });
+        }
+    </script>
+</body>
+</html>
